@@ -1,3 +1,4 @@
+ruby
 # Rules for <https://github.com/markdownlint/markdownlint>
 
 # Load all rules by default
@@ -48,3 +49,27 @@ exclude_rule 'MD034'
 # MD041 First line in file should be a top level header
 # Because we use HTML to hide them on the website.
 exclude_rule 'MD041'
+
+# MD042 No empty links
+# Exclude this rule to allow empty links in the markdown files.
+exclude_rule 'MD042'
+
+# MD043 Required header structure
+# Exclude this rule to allow custom header structures.
+exclude_rule 'MD043'
+
+# MD044 Proper names should have the correct capitalization
+# Exclude this rule to allow case-insensitive proper names.
+exclude_rule 'MD044'
+
+# MD045 Images should have alternate text (alt text)
+# Exclude this rule to allow images without alt text.
+exclude_rule 'MD045'
+
+# MD046 Code block style
+# Set the code block style to fenced to allow fenced code blocks.
+rule 'MD046', :style => :fenced
+
+# MD047 Files should end with a single newline character
+# Exclude this rule to allow files to end without a newline character.
+exclude_rule 'MD047'
