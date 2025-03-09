@@ -1,3 +1,10 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""模块说明。
+
+提供主要功能的实现。
+"""
+
 from base64 import b64encode
 
 import requests.auth
