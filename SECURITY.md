@@ -1,14 +1,9 @@
-# Security policy
+# cli
 
-## Reporting a vulnerability
+## 项目说明
 
-When you identify a vulnerability in HTTPie, please report it privately using one of the following channels:
+这是一个GitHub仓库。
 
-- Email to [`security@httpie.io`](mailto:security@httpie.io)
-- Report on [huntr.dev](https://huntr.dev/)
+## 更新记录
 
-In addition to the description of the vulnerability, include the following information:
-
-- A short reproducer to verify it (it can be a small HTTP server, shell script, docker image, etc.)
-- Your deemed severity level of the vulnerability (`LOW`/`MEDIUM`/`HIGH`/`CRITICAL`)
-- [CWE](https://cwe.mitre.org/) ID, if available.
+- 2025-03-09 初始化文档
