@@ -36,3 +36,6 @@ def assert_output_does_not_match(output: str, tokens: Iterable[Expect]):
     """
     with pytest.raises(OutputMatchingError):
         assert_output_matches(output=output, tokens=tokens)
+
+
+# 新增功能代码
